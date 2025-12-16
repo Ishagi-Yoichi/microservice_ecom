@@ -1,0 +1,8 @@
+services:
+  user-service:
+    build: .
+    container_name: product-service-container
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
