@@ -4,5 +4,8 @@
     "express": "^5.2.1",
     "mongoose": "^9.0.1"
   },
-  "type":"module"
+  "type":"module",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
